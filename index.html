@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#111111">
+  <title>Your Name — Links</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page">
+    <section class="profile">
+      <div class="avatar">YN</div>
+      <h1>Your Name</h1>
+      <p>@yourusername</p>
+      <span class="bio">Welcome to my links 👋</span>
+    </section>
+
+    <section class="links" aria-label="Social links">
+      <a class="link" href="https://www.tiktok.com/" target="_blank" rel="noopener">
+        <span class="icon">♪</span><span>TikTok</span><span class="arrow">↗</span>
+      </a>
+
+      <a class="link" href="https://www.instagram.com/" target="_blank" rel="noopener">
+        <span class="icon">◎</span><span>Instagram</span><span class="arrow">↗</span>
+      </a>
+
+      <a class="link" href="https://www.depop.com/" target="_blank" rel="noopener">
+        <span class="icon">D</span><span>Depop</span><span class="arrow">↗</span>
+      </a>
+
+      <a class="link" href="https://www.youtube.com/" target="_blank" rel="noopener">
+        <span class="icon">▶</span><span>YouTube</span><span class="arrow">↗</span>
+      </a>
+
+      <a class="link" href="https://www.snapchat.com/" target="_blank" rel="noopener">
+        <span class="icon">👻</span><span>Snapchat</span><span class="arrow">↗</span>
+      </a>
+    </section>
+
+    <footer>Made by me · © <span id="year"></span></footer>
+  </main>
+
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
